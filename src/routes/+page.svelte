@@ -1,9 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
 
 <section>
-	<h1>Voulez vous donner votre avis ?</h1>
-	<a href="/smiley">répondre</a>
+	<h1 class="display-1">Voulez vous donner votre avis ?</h1>
+	<a class="btn btn-primary" href="/smiley">Répondre</a>
 </section>
 
 <style>
@@ -14,10 +13,5 @@
 		align-items: center;
 		flex: 0.6;
 	}
-
-	h1 {
-		width: 100%;
-	}
-
 	
 </style>
