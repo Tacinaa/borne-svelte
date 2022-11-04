@@ -11,16 +11,16 @@
             <img  class="image5" src="happy.png" alt="Emoji vert">
         </button>
         <button class="smiley">
-            <img  class="image4" src="happy.png" alt="Emoji vert clair">
+            <img  class="image4" src="happy-mid.png" alt="Emoji vert clair">
         </button>
         <button class="smiley">
-            <img  class="image3" src="happy.png" alt="Emoji jaune">
+            <img  class="image3" src="sceptic.png" alt="Emoji jaune">
         </button>
         <button class="smiley">
-            <img  class="image2" src="happy.png" alt="Emoji orange">
+            <img  class="image2" src="moyen.png" alt="Emoji orange">
         </button>
         <button class="smiley">
-            <img  class="image1" src="happy.png" alt="Emoji rouge">
+            <img  class="image1" src="sad.png" alt="Emoji rouge">
         </button>
     </div>
 
@@ -47,6 +47,10 @@
         justify-content: center;
         display: flex;
         padding-top: 10%;
+    }
+
+    h1{
+        margin-top: 6%;
     }
 
 </style>
