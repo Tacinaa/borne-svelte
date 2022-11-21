@@ -4,12 +4,21 @@
 </section>
 
 <style>
+	h1{
+		text-align: center;
+        margin-top: 4%;
+        margin-right: 10%;
+        margin-left: 10%;
+	}
+
+	a{
+		margin-top: 5%;
+	}
+	
 	section {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
-		flex: 0.6;
 	}
 	
 </style>
