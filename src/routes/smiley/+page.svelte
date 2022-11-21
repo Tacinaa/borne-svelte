@@ -7,23 +7,23 @@
 <main>
     <h1 class="question display-5">{question}</h1>
     <div class="divSmileys">
-        <button class="smiley">
+        <a class="smiley" href="">
             <img  class="image1" src="sad.png" alt="Emoji rouge">
-        </button>
-        <button class="smiley">
+        </a>
+        <a class="smiley" href="">
             <img  class="image2" src="moyen.png" alt="Emoji orange">
-        </button>
-        <button class="smiley">
+        </a>
+        <a class="smiley" href="">
             <img  class="image3" src="sceptic.png" alt="Emoji jaune">
-        </button>
-        <button class="smiley">
+        </a>
+        <a class="smiley" href="">
             <img  class="image4" src="happy-mid.png" alt="Emoji vert clair">
-        </button>
-        <button class="smiley" href="/main">
+        </a>
+        <a class="smiley" href="">
             <img  class="image5" src="happy.png" alt="Emoji vert">
-        </button>
+        </a>
     </div>
-    <a class="btn btn-primary retour" href="/main">Retour</a>
+    <a class="btn btn-primary retour " href="/main">Retour</a>
 
 </main>
 
@@ -34,6 +34,7 @@
         width: 12%;
         height: auto;
         border:0;
+        margin:1%;
     }
 
     img{
@@ -41,8 +42,6 @@
         height: auto;
         width: auto;
     }
-
-
 
     .divSmileys{
         justify-content: center;
